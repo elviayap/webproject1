@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Login</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lora|Merriweather:300,400" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+     <div class="container">
+
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <a class="navbar-brand">La Fleur Pâtisserie</a>
+          
+
+  </div>
+</div>
+
+<center>
+<section id="contact">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <h2>Login</h2>
+
+                    <center>
+<form name="login">
+<table width="225" cellpadding="4">
+<tr><td></td><td><input type="text" class="form-control" name="username" placeholder="username"></td></tr>
+<tr><td></td><td><input type="password" class="form-control" name="password" placeholder="password"></td></tr>
+<tr><td></td><td><input type="button" class="form-control" onclick="check(this.form)" value="LOGIN"></td></tr>
+</table>
+</form>
+</center>
+                    
+
+                    <script language="javascript">
+function check(form)
+{
+ 
+ if(form.username.value == "elvia" && form.password.value == "elvia")
+  {
+    window.open('index.html')
+  }
+ else
+ {
+   alert("The username & password is elvia")
+  }
+}
+</script>
+               </div>
+          </div>
+     </div>
+</section>
+</center>
+
+
+<footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-5 col-md-offset-1 col-sm-6">
+                    
+                    <p>Established in 2017, La Fleur is a passionate patisserie serving only fine and freshly baked artisanal pastries. The secret to our signature taste is pure and fresh ingredients, no artificial flavourings and preservatives added. We are proud to mention that our pastries are Halal (no pork), but some may contain dash of alcohol as flavourings. Let us know if you need any special food requirements, we will try our best to cater to your needs.</p>
+                    <div class="footer-copyright">
+                         <p>Copyright &copy; 2017 La Fleur Pâtisserie</p>
+                    </div>
+               </div>
+
+               <div class="col-md-4 col-md-offset-1 col-sm-6">
+                    
+                    <p><i class="fa fa-globe"></i> 88 Adam Malik Street, Medan, ID 10880</p>
+                    <p><i class="fa fa-phone"></i> 061-023-0699</p>
+                    <p><i class="fa fa-save"></i> info@lafleur.com</p>
+               </div>
+
+               <div class="clearfix col-md-12 col-sm-12">
+                    <hr>
+               </div>
+
+               <div class="col-md-12 col-sm-12">
+                    <ul class="social-icon">
+                         <li><a href="#" class="fa fa-facebook"></a></li>
+                         <li><a href="#" class="fa fa-twitter"></a></li>
+                         <li><a href="#" class="fa fa-google-plus"></a></li>
+                         <li><a href="#" class="fa fa-dribbble"></a></li>
+                         <li><a href="#" class="fa fa-linkedin"></a></li>
+                    </ul>
+               </div>
+               
+          </div>
+     </div>
+</footer>
+
+
+<a href="#back-top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
